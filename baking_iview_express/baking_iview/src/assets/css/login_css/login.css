@@ -1,0 +1,67 @@
+.subjects {
+	width: 1080px;
+	float: left;
+}
+
+.tops {
+	width: 1080px;
+	float: left;
+	font-size: 54px;
+	position: relative;
+	text-align: center;
+	line-height: 100px;
+}
+
+.tops_left {
+	position: absolute;
+	left: 30px;
+	top: 0;
+}
+
+.text_input {
+	float: left;
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+}
+
+.text_input>input {
+	float: left;
+	width: 100%;
+	height: 100px;
+	border: 0;
+	font-size: 50px;
+	text-indent: 150px;
+}
+
+.text_input:nth-child(2)>input {
+	background: url("../../images/login_img/shouji.gif") 60px center no-repeat;
+	background-size: auto 80%;
+}
+
+.text_input:nth-child(3)>input {
+	background: url("../../images/login_img/mima.gif") 50px center no-repeat;
+	background-size: auto 80%;
+}
+
+.loginbutton {
+	width: 90%;
+	float: left;
+	font-size: 60px;
+	text-align: center;
+	background: #ffdc74;
+	height: 140px;
+	line-height: 140px;
+	color: #fff;
+	margin:50px 5% 0 5%;
+	border-radius: 10px;
+}
+
+.wangji {
+	float: right;
+	color: #999;
+	font-size: 34px;
+	margin-right: 70px;
+	margin-top: 30px;
+	font-weight: bold;
+}
